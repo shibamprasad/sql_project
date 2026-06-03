@@ -26,3 +26,13 @@ ORDER BY
     avg_salary DESC,
     demand_count DESC
 LIMIT 25;
+
+/*
+Key Insights:
+* The most optimal skills are those that balance both high demand and high salary, making them valuable for both job security and financial growth.
+* Core technical skills such as SQL and Python remain essential, but their true value increases when combined with high-paying specialized tools.
+* Skills related to cloud computing (AWS, Azure), data warehousing (Snowflake), and big data technologies tend to rank highly due to their presence in both high-paying and frequently demanded roles.
+* Data visualization tools like Tableau and Power BI continue to appear as valuable complementary skills, especially when paired with strong technical expertise.
+* The HAVING clause ensures that only skills with sufficient demand are considered, reducing the impact of niche skills that may show high salaries but low job availability.
+* Overall, the most strategic approach is to build a skill stack that combines foundational tools (SQL, Python) with modern data infrastructure and visualization technologies.
+*/
